@@ -1,0 +1,42 @@
+// biến, mixin
+// ----------------Variables--------------------
+// Text color
+$txt-color-primary: #000000;
+
+// Font weight
+$fw-thin: 100;
+$fw-xlight: 200;
+$fw-light: 300;
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-semi-bold: 600;
+$fw-bold: 700;
+$fw-xbold: 800;
+$fw-black: 900;
+//
+
+// Font-size
+$fs-1: 60px;
+$fs-2: 40px;
+$fs-3: 32px;
+$fs-4: 20px;
+$fs-5: 18px;
+$fs-6: 12px;
+//
+
+// Background
+$bg-gray-1: #d9d9d9;
+$bg-input: rgba(33, 33, 33, 0.08);
+$bg-light-1: #ffffff;
+$bg-gradient-label: linear-gradient(180deg, #f21299 0%, #1b02b5 100%);
+
+//
+
+// ----------------Mixin-----------------------
+//
+@mixin text-config($fw, $fs, $line-h, $color) {
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $line-h;
+  color: $color;
+}

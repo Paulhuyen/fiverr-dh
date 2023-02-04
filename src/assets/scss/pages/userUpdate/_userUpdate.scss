@@ -1,0 +1,39 @@
+.dialog {
+  .dialogTitle {
+    font-weight: 700;
+    text-align: center;
+  }
+  .dialogContent {
+    .form {
+      border-top: 1px solid rgb(221, 211, 211);
+      .dialogActions {
+        margin-top: 10px;
+        .btn_cancel {
+          margin: 0;
+          background-color: #e14c4c;
+          font-weight: 700;
+          color: #fff !important;
+          border: 1px solid transparent;
+          transition: color 0.2s, background-color 0.2s, box-shadow 0.2s,
+            border 0.2s;
+          border-radius: 3px;
+          &:hover {
+            box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.3);
+          }
+        }
+        .btn_save {
+          background-color: #1dbf73;
+          font-weight: 700;
+          color: #fff !important;
+          border: 1px solid transparent;
+          transition: color 0.2s, background-color 0.2s, box-shadow 0.2s,
+            border 0.2s;
+          border-radius: 3px;
+          &:hover {
+            box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.3);
+          }
+        }
+      }
+    }
+  }
+}

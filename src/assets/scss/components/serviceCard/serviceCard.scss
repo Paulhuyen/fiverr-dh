@@ -1,0 +1,88 @@
+.service-card {
+  border-radius: 0 !important;
+  img {
+    width: 100;
+  }
+  .card-body {
+    padding: 10px 12px;
+    .seller-info {
+      margin-bottom: 20px;
+      .name {
+        margin-left: 10px;
+
+        h2 {
+          color: #222325;
+          line-height: 18px;
+          font-size: 14px;
+          margin: 0;
+          font-weight: 700;
+          text-transform: capitalize;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+        p {
+          margin: 0;
+          color: #74767e;
+          font-weight: 600;
+        }
+      }
+    }
+    .service-name {
+      a {
+        color: #222325;
+        line-height: 22px;
+        font-weight: 400;
+        display: inline-block;
+        height: 70px;
+        font-size: 16px;
+        transition: 0.15s ease-in-out;
+        font-weight: 500;
+        &:hover {
+          color: #1dbf73;
+        }
+      }
+    }
+    .rating-star {
+      .star {
+        margin-bottom: 3px;
+        margin-right: 3px;
+      }
+      .star-rate {
+        color: #ffbe5b;
+        font-weight: 700;
+        margin-right: 2px;
+      }
+      .rating {
+        color: #b5b6ba;
+        font-weight: 500;
+      }
+    }
+  }
+  .card-footer {
+    padding: 10px 12px;
+    background-color: transparent;
+    .heart-icon {
+      svg {
+        fill: #b5b6ba;
+        cursor: pointer;
+      }
+    }
+    .price {
+      p {
+        color: #74767e;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        display: inline-block;
+      }
+      span {
+        font-size: 18px;
+        line-height: 20px;
+        color: #404145;
+        font-weight: 600;
+      }
+    }
+  }
+}

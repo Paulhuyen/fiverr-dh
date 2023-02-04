@@ -1,0 +1,23 @@
+// mixin
+//flex
+@mixin flex-wrap($value) {
+  flex-wrap: $value;
+}
+@mixin flex-direction($value) {
+  flex-direction: $value;
+}
+@mixin flex-flow($value) {
+  flex-flow: $value;
+}
+@mixin justify-content($value) {
+  justify-content: $value;
+}
+@mixin align-items($value) {
+  align-items: $value;
+}
+@mixin order($value) {
+  order: $value;
+}
+@mixin flex($value) {
+  flex: $value;
+}

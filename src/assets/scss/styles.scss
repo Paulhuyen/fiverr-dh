@@ -1,0 +1,31 @@
+//---pages---
+/// index
+@import "./pages/index/headerIndex.scss";
+@import "./pages/index/index.scss";
+/// jobDetail
+@import "./pages/jobDetail/jobDetail.scss";
+/// jobTitle
+@import "./pages/jobTitle/jobTitle.scss";
+/// login
+@import "./pages/login/login.scss";
+/// register
+@import "./pages/register/register.scss";
+/// result
+@import "./pages/result/result.scss";
+// categories
+@import "./pages/catagories/catagories.scss";
+/// userDetail
+@import "./pages/userDetail/userDetail.scss";
+@import "./pages/userUpdate/userUpdate.scss";
+//---components---
+@import "./components/header/header.scss";
+@import "./components/categoriesmenu/categoriesmenu.scss";
+@import "./components/footer/footer.scss";
+@import "./components/serviceCard/serviceCard.scss";
+//---themes---
+@import "../scss/themes/minxi";
+@import "../scss//themes/responsive";
+//---templates---
+@import "./templates/headerTemplateMobile.scss";
+@import "./templates/admin/adminTemplate.scss";
+@import "./templates/admin/adminTemplateMobile.scss";
